@@ -204,7 +204,7 @@
           "en": "Capsule containing the code to start a project."
         },
         "capsCodeTypes": ["project"],
-        "capsCodeText": "export const Router = () => { \n  return (<></>); \n};",
+        "capsCodeText": "export const Router = () => { \n  return (<div>Projeto</div>); \n};",
         "capsCodeInputs": {
           "ccc_project-0": {
             "capsIptCodeID": "ccc_project-0",
