@@ -1,11 +1,9 @@
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// ---------- import Internals
+//import { Router } from './src';
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+export default function App() {
+//  return <Router />;
+return <div>Oi Gente!!!!</div>
+}
+
