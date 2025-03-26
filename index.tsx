@@ -1,5 +1,8 @@
 
 // ---------- import React Packs
+import React from 'react';
+import * as RN from 'react-native';
+
 // ---------- import Internals
 // import { Router } from './src';
 
