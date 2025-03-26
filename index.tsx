@@ -1,7 +1,7 @@
 
 // ---------- import React Packs
-import * as React from 'https://cdn.jsdelivr.net/npm/react@18.2.0';
-import * as ReactDOM from 'https://esm.sh/react-dom@18.2.0';
+import * as React from 'https://cdn.jsdelivr.net/npm/react';
+import * as ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom';
 
 // ---------- import Internals
 // import { Router } from './src';
