@@ -1,4 +1,3 @@
-
 {
   "sss_dirSystem": {
     "capsCodeInfo": {
@@ -204,14 +203,7 @@
           "en": "Capsule containing the code to start a project."
         },
         "capsCodeTypes": ["project"],
-        "capsCodeText": "// ---------- import React Packs\
-import React from 'react';\
-import * as RN from 'react-native';\
-\
-// ---------- set Main Component\
-export const Router = () => {\
-  return (<></>);\
-};",
+        "capsCodeText": "// ---------- import React Packs \n import React from react';\n import * as RN from 'react-native'; \n \n // ---------- set Main Component \n export const Router = () => { \n  return (<></>); \n};",
         "capsCodeInputs": {
           "ccc_project-0": {
             "capsIptCodeID": "ccc_project-0",
