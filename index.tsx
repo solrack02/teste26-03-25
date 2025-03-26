@@ -1,6 +1,6 @@
 
 // ---------- import React Packs
-import * as React from 'https://esm.sh/react@18.2.0';
+import * as React from 'https://cdn.jsdelivr.net/npm/react@18.2.0';
 import * as ReactDOM from 'https://esm.sh/react-dom@18.2.0';
 
 // ---------- import Internals
