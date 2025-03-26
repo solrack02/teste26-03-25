@@ -1,8 +1,5 @@
 
 // ---------- import React Packs
-import * as React from 'https://cdn.jsdelivr.net/npm/react';
-import * as ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom';
-
 // ---------- import Internals
 // import { Router } from './src';
 
