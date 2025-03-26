@@ -1,10 +1,16 @@
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import React from 'react';
+import * as RN from 'react-native';
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-  <React.StrictMode>
-  </React.StrictMode>
-)
+// ---------- import Internals
+import { Router } from './src';
+
+export default function App() {
+  return <></>;
+}
+
+RN.AppRegistry.registerComponent('App', () => App);
+
+RN.AppRegistry.runApplication('App', {
+  rootTag: document.getElementById('root'),
+});
