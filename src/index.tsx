@@ -1,13 +1,9 @@
 
-
-          // ---------- import React Packs
-          import React from 'react';
-          import * as RN from 'react-native';
-
-          // ---------- set Main Component
-          export const Router = () => {
- return (
- <div>Oi Gente !!<div>
-);
+// ---------- import React Packs 
+ import React from react';
+ import * as RN from 'react-native'; 
+ 
+ // ---------- set Main Component 
+ export const Router = () => { 
+  return (<></>); 
 };
-
