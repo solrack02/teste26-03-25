@@ -1,17 +1,11 @@
 
-// ---------- import React Packs
-import React from 'react';
-import * as RN from 'react-native';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-// ---------- import Internals
-import { Router } from './src';
-
-export default function App() {
-  return <Router />;
-}
-
-RN.AppRegistry.registerComponent('App', () => App);
-
-RN.AppRegistry.runApplication('App', {
-  rootTag: document.getElementById('root'),
-});
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.StrictMode>
+<div>Oi Gente</div>
+  </React.StrictMode>
+)
